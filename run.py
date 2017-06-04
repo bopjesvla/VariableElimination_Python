@@ -13,10 +13,10 @@ if __name__ == '__main__':
     net = BayesNet('earthquake.bif') 
     
     # these are the variables that should be used for variable elimination
-    print 'values', net.values 
-    print 'probabilities', net.probabilities
-    print 'parents', net.parents
-    print 'nodes', net.nodes
+#    print 'values', net.values 
+#    print 'probabilities', net.probabilities
+#    print 'parents', net.parents
+#    print 'nodes', net.nodes
 
     
     # Make your variable elimination code in a seperate file: 'variable_elim'. 
@@ -32,7 +32,6 @@ if __name__ == '__main__':
     elim_order = net.nodes
 
 	#call the elimination ordering function for example as follows:   
-    ve.run('Alarm', evidence, elim_order)
-
-
- 
+    result = ve.run('Alarm', {'JohnCalls': True}, elim_order)
+    print "RESULT"
+    print result

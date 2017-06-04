@@ -1,0 +1,16 @@
+The query variable: Alarm
+The observed variables: {'JohnCalls': True}
+Reducing observed variables...
+Elimination ordering:  ['Burglary', 'MaryCalls', 'Alarm', 'JohnCalls', 'Earthquake']
+Multiplying factors containing Burglary
+Summing Burglary out of Alarm
+Replacing Alarm with new factor
+Multiplying factors containing MaryCalls
+Multiplying factors containing Earthquake
+Summing Earthquake out of Alarm
+Replacing Alarm with new factor
+Normalizing
+RESULT
+   Alarm      prob
+0  False  0.983886
+1   True  0.016114
