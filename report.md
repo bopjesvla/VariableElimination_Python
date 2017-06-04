@@ -13,6 +13,7 @@ The variable elimination algorithm, designed by Rina Derchter, takes a Bayesian 
 		- Multiply factors containing Z
 		- Sum out Z to obtain new factor fZ
 		- Remove the multiplied factors form the list and add fZ
+
 - Normalize the result to make it a probability distribution
 - Return this distribution
 
@@ -55,7 +56,7 @@ for name, factor in probs.viewitems():
 			# factor product
 			new_factor = pd.merge(factor, elim_factor, on=elim_node, sort=False)
 			new_factor['prob'] *= new_factor.elim_prob
-		    del new_factor['elim_prob']
+			del new_factor['elim_prob']
 
 			# factor marginalization
 			# ...
