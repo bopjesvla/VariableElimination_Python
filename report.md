@@ -1,4 +1,9 @@
-# Variable Elimination: Implementing a Performant Inference Algorithm
+# Implementing a Performant Inference Algorithm
+
+Bob de Ruiter<br>
+s4344952
+
+04-06-2017
 
 ## Specification
 
