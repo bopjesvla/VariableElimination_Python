@@ -1,7 +1,7 @@
 # Implementing a Performant Inference Algorithm
 
-**Bob de Ruiter**
-**s4344952**
+**Bob de Ruiter**<br>
+**s4344952**<br>
 **04-06-2017**
 
 ## Specification
