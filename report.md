@@ -10,10 +10,9 @@ The variable elimination algorithm, designed by Rina Derchter, takes a Bayesian 
 
 - Identify factors and reduce observed variables
 - For every variable Z in the elimination ordering:
-		- Multiply factors containing Z
-		- Sum out Z to obtain new factor fZ
-		- Remove the multiplied factors form the list and add fZ
-
+	- Multiply factors containing Z
+	- Sum out Z to obtain new factor fZ
+	- Remove the multiplied factors form the list and add fZ
 - Normalize the result to make it a probability distribution
 - Return this distribution
 
